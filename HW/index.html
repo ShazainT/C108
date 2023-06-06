@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>ANIMAL Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>ANIMAL Sound Identification Web App</h2>      
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <br>
+        <br>
+        <button class="btn btn-warning" onclick="startClassification();">  START  </button>
+        <h2> PRESS THE START BUTTON TO DETECT THE VOICE </h2>
+        <h3 id="result_label"> Detected dog -      Detected cat -     </h3>
+        <h3 id="result_confidence"> Detected  voice is of - </h3>
+        <br>
+        <br>
+        <img src="https://www.bing.com/images/search?view=detailV2&ccid=zdd4iWxw&id=A2C64828A8745C2667749B51A56D5A339697E9DE&thid=OIP.zdd4iWxwfCP3WNZLBNGpnQHaI6&mediaurl=https%3a%2f%2fwebstockreview.net%2fimages%2fear-clipart-logo-1.png&exph=1107&expw=920&q=ear+logo&simid=608042910049122554&FORM=IRPRST&ck=E53CEBB668598A681CBCF5D9C4F46BB0&selectedIndex=2" id="ear" width="300" height="300">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="https://www.bing.com/images/search?view=detailV2&ccid=BPLM5SLC&id=4C8D00E62FA0C8C53FB8E5EDF037BD2545364A43&thid=OIP.BPLM5SLCKOSo9k_8b16m3QHaE4&mediaurl=https%3a%2f%2fwww.shoalhaven.nsw.gov.au%2ffiles%2fcontent%2fpublic%2fservices%2fbarking-dogs%2fbarking-dogs-icon_1.jpg%3fw%3d1080&exph=711&expw=1080&q=barking+dog+logo&simid=608009641248974332&FORM=IRPRST&ck=C158C53F2BE586C2DB1E3DF370B132CF&selectedIndex=61" id="dog" width="300" height="300">
+        <img src="https://www.bing.com/images/search?view=detailV2&ccid=3WZZz5r%2f&id=6096D73B161174829FB76E9EFF69C6C5BA276384&thid=OIP.3WZZz5r_ZAmCWbURZ7Y-QwHaDt&mediaurl=https%3a%2f%2fwww.codester.com%2fstatic%2fuploads%2fitems%2f000%2f014%2f14962%2fpreview-xl.jpg&exph=800&expw=1600&q=SIMPLE+Cat+Logo&simid=608006909633769278&FORM=IRPRST&ck=0B31117A12582C4BDCE93DFB1FF47AAB&selectedIndex=102" id="Cat" width="300" height="300">
+        <img src="https://www.bing.com/images/search?view=detailV2&ccid=iZnwXx1C&id=CC96F074571A2F5E5F0F0B2FBC058447D9301058&thid=OIP.iZnwXx1CcY7V0iGqlzEaxwHaHa&mediaurl=https%3a%2f%2fthumbs.dreamstime.com%2fb%2fhuman-icon-logo-modern-line-style-high-quality-black-outline-pictogram-web-site-design-mobile-apps-vector-84815823.jpg&exph=800&expw=800&q=human+logo&simid=608043000258198420&FORM=IRPRST&ck=3D3ED36AC0F4B86F0512BC2DC2FAF912&selectedIndex=50" id="HUMAN" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">
+      DEVELOPED BY SHAZAIN
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
